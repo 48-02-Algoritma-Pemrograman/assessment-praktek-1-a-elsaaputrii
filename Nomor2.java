@@ -11,6 +11,7 @@ public class Nomor2{
         namaDrive = scanner.next();
         System.out.print("masukan lama trip");
         lamaTrip = scanner.nextInt();
+        System.err.println("total trip:" + (lamaTrip *13000));
         totaltrip = scanner.nextInt();
 
 
@@ -26,7 +27,6 @@ public class Nomor2{
             totaltrip = 30000;
         }
 
-        totalOmzet = lamaTrip *totaltrip;
         totaltrip = lamaTrip *13000;
 
     }
